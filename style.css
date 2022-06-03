@@ -1,0 +1,336 @@
+/* GENERAL */
+
+* {
+    font-family: 'Satoshi';
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 32px;
+    padding-left: 32px;
+}
+
+/* TECHS */
+
+li {
+list-style: none;
+margin-bottom: 8px;
+font-size: 12px;
+}
+
+h3 {
+    margin-left: 40px;
+    margin-bottom: 24px;
+    font-size: 17px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+.tech {
+    margin-bottom: 60px;
+}
+
+/* posicion iconos */
+
+.iconos {
+    display: flex;
+    align-items: center;
+}
+
+.iconos-uno {
+    margin-left: 97px;
+}
+
+.iconos-dos {
+    margin-left: 109px;
+}
+
+.iconos-tres {
+    margin-left: 93px;
+}
+
+.iconos-cuatro {
+    margin-left: 181px;
+}
+
+/* tamaño iconos */
+
+.icono-one {
+    width: 25px;
+    height: 30px;
+    margin-left: 30px;
+}
+
+.icono-two {
+    width: 18px;
+    height: 30px;
+    margin-left: 3px;
+}
+
+/* WHAT'S BOX */
+
+.imagen {
+background-image: url(./Whatsbox/Image/background-mobile.png);
+background-repeat: no-repeat;
+background-size: contain;
+width: 100vw;
+height: 200px;
+background-position: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 48px;
+    font-size: 32px;
+}
+
+p {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    margin-right: 16px;
+    margin-left: 16px;
+    font-size: 15px;
+}
+
+/* media queries */
+
+@media (min-width: 735px) {
+    
+
+    /* WHATS BOX */
+
+   
+
+    .imagen {
+        background-image: url(./Whatsbox/Image/background.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100vw;
+        height: 350px;
+        background-position: center;
+        position: relative;
+        bottom: 60px;
+        }
+
+
+        h1:after {
+            text-align: center;
+            margin-top: 40px;
+            margin-left: 32px;
+            font-size: 19px;
+            content: "Tech Specs";
+            color: rgb(208, 206, 206);
+        }
+
+        h1 {
+            margin-right: 440px;
+            margin-top: 40px;
+            font-size: 19px;
+        }
+
+.oculto {
+    display: none;
+}
+
+.texto-oculto {
+width: 200px;
+height: 20px;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 125%;
+position: relative;
+bottom: 420px;
+left: 30px;
+}
+        
+.iconos-box {
+    display: flex;
+    flex-direction: column;
+    width: 20px;
+    height: 30px;
+    position: relative;
+    bottom: 358px;
+    left: 20px;
+    padding: 0px;
+}
+
+.txt {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+img {
+    width: 22px;
+    height: 22px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 7px;
+}
+
+/* TECH  */
+
+.icono-one, .icono-two {
+    border-radius: 0px;
+    border: 0px;
+}
+
+h2 {
+    position: relative;
+    bottom: 200px;
+    right: 225px;
+    font-size: 19px;
+    text-align: center;
+}
+
+h2:before {
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 32px;
+    font-size: 19px;
+    content: "What's in the box";
+    color: rgb(208, 206, 206);
+}
+
+.articulo-uno {
+    position: relative;
+    right: 30px;
+    bottom: 200px;
+    width: 200px;
+}
+
+.articulo-dos {
+    position: relative;
+    left: 330px;
+    bottom: 510px;
+    width: 200px;
+}
+
+.articulo-tres {
+    position: relative;
+    left: 150px;
+    bottom: 790px;
+    width: 200px;
+}
+
+.articulo-cuatro {
+    position: relative;
+    left: 500px;
+    bottom: 1033px;
+    width: 200px;
+}
+
+.icono-two {
+    display: none;
+}
+
+.iconos-uno {
+    margin-left: 0px;
+}
+
+.iconos-dos {
+    margin-left: 0px;
+}
+
+.iconos-tres {
+    margin-left: 0px;
+}
+
+.iconos-cuatro {
+    margin-left: 0px;
+}
+
+section {
+    height: 100px;
+}
+
+
+
+
+}
+
+@media (max-width: 735px) {
+    .iconos-box {
+        display: none;
+    }
+
+    .texto-oculto {
+        display: none;
+    }
+
+    
+}
+
+@media (min-width: 375px) {
+    .imagen {
+        background-image: url(./Whatsbox/Image/background-mobile.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100vw;
+        height: 400px;
+        background-position: center;
+    }
+
+}
+
+@media (max-width: 734px) {
+    .imagen {
+        background-image: url(./Whatsbox/Image/background-mobile.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100vw;
+        height: 400px;
+        background-position: center;
+        
+    }
+
+}
+
+@media (min-width: 1069px) {
+
+    .imagen {
+        background-image: url(./Whatsbox/Image/background.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100vw;
+        height: 600px;
+        background-position: center;
+        bottom: 120px;
+        
+    }
+
+    h1 {
+        font-size: 30px;
+       position: relative;
+       right: 90px;
+       top: 20px;
+       margin-top: 40px;
+       margin-bottom: 40px;
+    }
+
+    h1:after {
+        font-size: 30px;
+    }
+
+    .pe {
+        position: absolute;
+        bottom: 350px;
+
+    }
+
+    .faro {
+        position: relative;
+        bottom: 30px;
+        align-items: center;
+    }
+}
