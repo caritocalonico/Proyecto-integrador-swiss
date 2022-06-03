@@ -109,6 +109,8 @@ p {
 
     /* WHATS BOX */
 
+    
+
    
 
     .imagen {
@@ -149,8 +151,8 @@ font-style: normal;
 font-weight: 500;
 font-size: 30px;
 line-height: 125%;
-position: relative;
-bottom: 420px;
+position: absolute;
+bottom: 260px;
 left: 30px;
 }
         
@@ -159,7 +161,7 @@ left: 30px;
     flex-direction: column;
     width: 20px;
     height: 30px;
-    position: relative;
+    position: absolute;
     bottom: 358px;
     left: 20px;
     padding: 0px;
@@ -176,6 +178,10 @@ img {
     border: 1px solid black;
     border-radius: 50px;
     padding: 7px;
+    position: relative;
+    margin: 1px;
+    top: 110px;
+    align-items: center;
 }
 
 /* TECH  */
@@ -187,8 +193,8 @@ img {
 
 h2 {
     position: relative;
-    bottom: 200px;
-    right: 225px;
+    bottom: 100px;
+    right: 220px;
     font-size: 19px;
     text-align: center;
 }
@@ -205,28 +211,28 @@ h2:before {
 .articulo-uno {
     position: relative;
     right: 30px;
-    bottom: 200px;
+    bottom: 125px;
     width: 200px;
 }
 
 .articulo-dos {
     position: relative;
     left: 330px;
-    bottom: 510px;
+    bottom: 435px;
     width: 200px;
 }
 
 .articulo-tres {
     position: relative;
     left: 150px;
-    bottom: 790px;
+    bottom: 717px;
     width: 200px;
 }
 
 .articulo-cuatro {
     position: relative;
     left: 500px;
-    bottom: 1033px;
+    bottom: 960px;
     width: 200px;
 }
 
@@ -257,6 +263,7 @@ section {
 
 
 
+
 }
 
 @media (max-width: 735px) {
@@ -281,46 +288,61 @@ section {
         background-position: center;
     }
 
+
 }
 
-@media (max-width: 734px) {
+ @media (max-width: 735px) {
     .imagen {
         background-image: url(./Whatsbox/Image/background-mobile.png);
         background-repeat: no-repeat;
-        background-size: contain;
-        width: 100vw;
-        height: 400px;
+        width: 100%;
+        height: 200px;
         background-position: center;
+       
         
     }
 
-}
+    
+
+
+} 
 
 @media (min-width: 1069px) {
 
     .imagen {
         background-image: url(./Whatsbox/Image/background.png);
         background-repeat: no-repeat;
-        background-size: contain;
+
         width: 100vw;
         height: 600px;
         background-position: center;
         bottom: 120px;
-        
+
     }
 
     h1 {
-        font-size: 30px;
-       position: relative;
-       right: 90px;
-       top: 20px;
-       margin-top: 40px;
-       margin-bottom: 40px;
+        font-size: 40px;
+        position: relative;
+        right:5px;
+        top: 20px;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 
     h1:after {
-        font-size: 30px;
+        font-size: 40px;
     }
+
+    h2 {
+        font-size: 40px;
+        position: relative;
+        bottom:150px;
+    }
+
+    h2:before {
+        font-size: 40px;
+    }
+
 
     .pe {
         position: absolute;
@@ -328,9 +350,37 @@ section {
 
     }
 
-    .faro {
+    /* .faro {
         position: relative;
         bottom: 30px;
         align-items: center;
-    }
+    } */
+
+    .texto-oculto {
+        width: 200px;
+        height: 20px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 125%;
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+        }
+                
+        .iconos-box {
+            display: flex;
+            flex-direction: column;
+            width: 20px;
+            height: 30px;
+            position: absolute;
+            bottom: 130px;
+            left: 20px;
+            padding: 0px;
+        }
+
+        h3 {
+            position: relative;
+            bottom:50px;
+        }
 }
