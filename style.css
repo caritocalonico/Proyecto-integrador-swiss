@@ -140,6 +140,8 @@ p {
             font-size: 19px;
         }
 
+        /* parte iconos */
+
 .oculto {
     display: none;
 }
@@ -150,7 +152,6 @@ height: 20px;
 font-style: normal;
 font-weight: 500;
 font-size: 30px;
-line-height: 125%;
 position: absolute;
 bottom: 260px;
 left: 30px;
@@ -160,16 +161,18 @@ left: 30px;
     display: flex;
     flex-direction: column;
     width: 20px;
-    height: 30px;
-    position: absolute;
     bottom: 358px;
     left: 20px;
-    padding: 0px;
+    padding: 5px;
 }
 
 .txt {
     margin-bottom: 15px;
     margin-top: 15px;
+    align-items: center;
+    display: flex;
+    position: relative;
+    right: 50px;
 }
 
 img {
@@ -179,10 +182,12 @@ img {
     border-radius: 50px;
     padding: 7px;
     position: relative;
-    margin: 1px;
-    top: 110px;
+    margin-right: 40px;
+    top: 1px;
     align-items: center;
 }
+
+
 
 /* TECH  */
 
@@ -210,28 +215,28 @@ h2:before {
 
 .articulo-uno {
     position: relative;
-    right: 30px;
-    bottom: 125px;
+    right: 250px;
+    bottom: 105px;
     width: 200px;
 }
 
 .articulo-dos {
     position: relative;
-    left: 330px;
+    left: 130px;
     bottom: 435px;
     width: 200px;
 }
 
 .articulo-tres {
     position: relative;
-    left: 150px;
+    right: 60px;
     bottom: 717px;
     width: 200px;
 }
 
 .articulo-cuatro {
     position: relative;
-    left: 500px;
+    left: 305px;
     bottom: 960px;
     width: 200px;
 }
@@ -283,10 +288,13 @@ section {
         background-image: url(./Whatsbox/Image/background-mobile.png);
         background-repeat: no-repeat;
         background-size: contain;
-        width: 100vw;
+        width: 735px;
         height: 400px;
         background-position: center;
     }
+
+    
+
 
 
 }
@@ -295,13 +303,14 @@ section {
     .imagen {
         background-image: url(./Whatsbox/Image/background-mobile.png);
         background-repeat: no-repeat;
-        width: 100%;
+        width: 100vw;
         height: 200px;
         background-position: center;
        
         
     }
 
+    
     
 
 
@@ -350,11 +359,7 @@ section {
 
     }
 
-    /* .faro {
-        position: relative;
-        bottom: 30px;
-        align-items: center;
-    } */
+    
 
     .texto-oculto {
         width: 200px;
@@ -362,21 +367,41 @@ section {
         font-style: normal;
         font-weight: 500;
         font-size: 30px;
-        line-height: 125%;
         position: absolute;
-        bottom: 30px;
+        bottom: 5px;
         left: 30px;
+        display: flex;
+        
         }
                 
         .iconos-box {
             display: flex;
             flex-direction: column;
             width: 20px;
-            height: 30px;
-            position: absolute;
-            bottom: 130px;
+            bottom: 358px;
             left: 20px;
-            padding: 0px;
+            padding: 5px;
+        }
+        
+        .txt {
+            margin-bottom: 15px;
+            margin-top: 15px;
+            align-items: center;
+            display: flex;
+            position: relative;
+            right: 50px;
+        }
+        
+        img {
+            width: 22px;
+            height: 22px;
+            border: 1px solid black;
+            border-radius: 50px;
+            padding: 7px;
+            position: relative;
+            margin-right: 40px;
+            top: 1px;
+            align-items: center;
         }
 
         h3 {
