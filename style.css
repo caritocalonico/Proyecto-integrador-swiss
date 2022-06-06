@@ -363,17 +363,33 @@ section {
 
     .texto-oculto {
         width: 200px;
-        height: 20px;
+        height: 5px;
         font-style: normal;
         font-weight: 500;
-        font-size: 30px;
+        font-size: 40px;
         position: absolute;
-        bottom: 5px;
+        bottom: 0px;
         left: 30px;
         display: flex;
+    flex-direction: row;
         
         }
-                
+/* columna : flex row y display flex
+conteiner general para todos: column y flex
+ul display flex
+dos cajas, una q envuelve a los 4 y la ul q tambien  */
+
+.columna {
+    display: flex;
+    flex-direction: column;
+}
+
+.usb {
+    position: relative;
+    top: 125px;
+    right: 533px;
+}
+
         .iconos-box {
             display: flex;
             flex-direction: column;
@@ -390,7 +406,11 @@ section {
             display: flex;
             position: relative;
             right: 50px;
+            white-space: nowrap; /* texto sin saltos de linea */
+            margin-right: 50px;
+            font-size: 20px;
         }
+
         
         img {
             width: 22px;
@@ -404,8 +424,65 @@ section {
             align-items: center;
         }
 
-        h3 {
+        /* h3 {
             position: relative;
-            bottom:50px;
+            bottom:30px;
+        } */
+
+        /* tech specs */
+
+        .articulo-uno {
+            position: relative;
+            right: 250px;
+            bottom: 160px;
+            width: 200px;
+            
         }
+        
+        .articulo-dos {
+            position: relative;
+            left: 130px;
+            bottom: 445px;
+            width: 200px;
+           
+        }
+        
+        .articulo-tres {
+            position: relative;
+            left: 20px;
+            bottom: 708px;
+            width: 200px;
+            
+        }
+        
+        .articulo-cuatro {
+            position: relative;
+            left: 305px;
+            bottom: 925px;
+            width: 200px;
+           
+        }
+
+        .iconos {
+            white-space: nowrap;
+        }
+
+        h3 {
+            font-size: 20px;
+        }
+
+        li {
+            font-size: 16px;
+            white-space: nowrap;
+        }
+
+        .icono-one {
+            margin-left: 0px;
+        }
+
+        .oculto-dos {
+            display: none;
+        }
+
 }
+
