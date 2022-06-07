@@ -431,7 +431,7 @@ dos cajas, una q envuelve a los 4 y la ul q tambien  */
 
         /* tech specs */
 
-        .articulo-uno {
+         .articulo-uno {
             position: relative;
             right: 250px;
             bottom: 160px;
@@ -441,8 +441,8 @@ dos cajas, una q envuelve a los 4 y la ul q tambien  */
         
         .articulo-dos {
             position: relative;
-            left: 130px;
-            bottom: 445px;
+            left: 320px;
+            bottom: 471px;
             width: 200px;
            
         }
@@ -450,18 +450,18 @@ dos cajas, una q envuelve a los 4 y la ul q tambien  */
         .articulo-tres {
             position: relative;
             left: 20px;
-            bottom: 708px;
+            bottom: 775px;
             width: 200px;
             
         }
         
         .articulo-cuatro {
             position: relative;
-            left: 305px;
-            bottom: 925px;
+            left: 550px;
+            bottom: 987px;
             width: 200px;
            
-        }
+        }  
 
         .iconos {
             white-space: nowrap;
